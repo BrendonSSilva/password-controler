@@ -11,15 +11,6 @@ class Home extends Nullstack {
 		this.visible = !this.visible;
 	}
 
-
-	static async authorize({ request, response }) {
-		if (!request.user) {
-			response.status(401)
-			return
-		}
-		// logica aqui
-	}
-
 	render() {
 		return (
 			<div class="wrap-login100">
