@@ -6,26 +6,6 @@
 }
 
 /*---------------------------------------------*/
-a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #fff;
-}
-
 input {
 	outline: none;
 	border: none;
@@ -46,45 +26,26 @@ button:hover {
 	cursor: pointer;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Utility ]*/
-.txt1 {
-	font-family: Poppins-Regular;
-	font-size: 13px;
-	line-height: 1.5;
-}
-
-.txt2 {
-	margin-left: 5px;
-	font-size: 13px;
-	line-height: 1.5;
-}
-
-.wrap-login100 {
-	margin: 15rem auto;
-	width: 22rem;
-	background: #000;
-	border-radius: 10px;
-	overflow: hidden;
-	padding: 33px 55px 33px 55px;
-}
-
 /*------------------------------------------------------------------
 [ Input ]*/
 
 .wrap-input100 {
-	width: 100%;
+	width: 22rem;
+	margin: 15rem auto;
+	background: #000;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 33px 55px 33px 55px;
 	position: relative;
-	border-bottom: 2px solid #c83a76;
-	margin-bottom: 37px;
 }
 
 .input100 {
+	margin-bottom: 2rem;
+	border-bottom: 2px solid #c83a76;
 	font-family: Poppins-Regular;
-	font-size: 15px;
+	font-size: 1rem;
 	color: #ccc;
 	line-height: 1.2;
-
 	display: block;
 	width: 100%;
 	height: 45px;
@@ -97,17 +58,12 @@ button:hover {
 	width: 32px;
 	height: 32px;
 	color: #999999;
-
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
 	display: flex;
 	align-items: center;
 	position: absolute;
 	height: 100%;
 	top: 0;
-	right: 0;
+	right: 3.6rem;
 	padding-right: 5px;
 	cursor: pointer;
 	-webkit-transition: all 0.4s;
@@ -119,48 +75,22 @@ button:hover {
 /*------------------------------------------------------------------
 [ Button ]*/
 
-.wrap-login100-form-btn {
-	width: 100%;
-	display: block;
-	position: relative;
-	z-index: 1;
-	border-radius: 25px;
-	overflow: hidden;
-	margin: 0 auto;
-}
-
-.login100-form-bgbtn {
-	position: absolute;
-	z-index: -1;
-	width: 300%;
-	height: 100%;
-	background: #a64bf4;
+.login100-form-btn {
 	background: -webkit-linear-gradient(right, #c83a76, #5c1c37, #c83a76, #5c1c37);
 	background: -o-linear-gradient(right, #c83a76, #5c1c37, #c83a76, #5c1c37);
 	background: -moz-linear-gradient(right, #c83a76, #5c1c37, #c83a76, #5c1c37);
 	background: linear-gradient(right, #c83a76, #5c1c37, #c83a76, #5c1c37);
-	top: 0;
-	left: -100%;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	transition: all 0.4s;
-}
-
-.login100-form-btn {
 	font-family: Poppins-Medium;
-	font-size: 15px;
 	color: #fff;
 	line-height: 1.2;
+	border-radius: 30px;
 	text-transform: uppercase;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0 20px;
-	width: 100%;
+	width: 13rem;
+	margin: 0 auto;
 	height: 50px;
 }
 
-.wrap-login100-form-btn:hover .login100-form-bgbtn {
-	left: 0;
-}
