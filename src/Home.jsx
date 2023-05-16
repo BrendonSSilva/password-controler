@@ -15,8 +15,8 @@ class Home extends Nullstack {
 		return (
 			<form class="wrap-input100">
 				<input class="input100" type="text" name="email" placeholder='E-Mail' required />
-				<img src={this.visible ? './view.svg' : './hide.svg'} onclick={this.changeVisible} class="btn-show-pass" />
-				<input class="input100" type={this.visible ? 'password' : 'text'} placeholder='Password' name="password" required />
+				<img src={this.visible ? './hide.svg' : './view.svg'} onclick={this.changeVisible} class="btn-show-pass" />
+				<input class="input100" type={this.visible ? 'text' : 'password'} placeholder='Password' name="password" required />
 				<button class="login100-form-btn">
 					Login
 				</button>

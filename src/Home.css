@@ -66,10 +66,6 @@ button:hover {
 	right: 3.6rem;
 	padding-right: 5px;
 	cursor: pointer;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	transition: all 0.4s;
 }
 
 /*------------------------------------------------------------------
@@ -93,4 +89,3 @@ button:hover {
 	margin: 0 auto;
 	height: 50px;
 }
-
